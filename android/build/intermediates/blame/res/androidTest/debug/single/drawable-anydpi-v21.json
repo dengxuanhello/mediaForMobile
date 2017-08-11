@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_pause.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_pause.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_fastforward.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_fastforward.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_previous.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_previous.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_next.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_next.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_play.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_play.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_controls_rewind.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_controls_rewind.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/exo_edit_mode_logo.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/drawable-anydpi-v21/exo_edit_mode_logo.xml"
+    }
+]

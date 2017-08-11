@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/dengxuan/workspace/github/media-for-mobile/android/src/main/assets"/><source path="/home/dengxuan/workspace/github/media-for-mobile/android/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/dengxuan/workspace/github/media-for-mobile/android/src/debug/assets"/></dataSet></merger>

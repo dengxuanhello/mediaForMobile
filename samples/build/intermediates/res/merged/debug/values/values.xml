@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="effects_names">
+        <item>No effect</item>
+        <item>Grayscale</item>
+        <item>Inverse</item>
+        <item>Sepia</item>
+        <item>Text</item>
+    </string-array>
+    <string-array name="frame_size_values">
+        <item>640 x 480</item>
+        <item>1024 x 768</item>
+        <item>1280 x 720</item>
+    </string-array>
+    <string-array name="video_bit_rate_values">
+        <item>5000</item>
+        <item>4000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1000</item>
+    </string-array>
+    <attr format="reference" name="controller_layout_id"/>
+    <attr format="integer" name="fastforward_increment"/>
+    <attr format="reference" name="player_layout_id"/>
+    <attr format="enum" name="resize_mode">
+    <enum name="fit" value="0"/>
+    <enum name="fixed_width" value="1"/>
+    <enum name="fixed_height" value="2"/>
+    <enum name="fill" value="3"/>
+  </attr>
+    <attr format="integer" name="rewind_increment"/>
+    <attr format="integer" name="show_timeout"/>
+    <attr format="enum" name="surface_type">
+    <enum name="none" value="0"/>
+    <enum name="surface_view" value="1"/>
+    <enum name="texture_view" value="2"/>
+  </attr>
+    <color name="exo_edit_mode_background_color">#FFF4F3F0</color>
+    <declare-styleable name="AspectRatioFrameLayout"><attr name="resize_mode"/></declare-styleable>
+    <declare-styleable name="DefaultTimeBar"><attr format="dimension" name="bar_height"/><attr format="dimension" name="touch_target_height"/><attr format="dimension" name="ad_marker_width"/><attr format="dimension" name="scrubber_enabled_size"/><attr format="dimension" name="scrubber_disabled_size"/><attr format="dimension" name="scrubber_dragged_size"/><attr format="color" name="played_color"/><attr format="color" name="scrubber_color"/><attr format="color" name="buffered_color"/><attr format="color" name="unplayed_color"/><attr format="color" name="ad_marker_color"/></declare-styleable>
+    <declare-styleable name="PlaybackControlView"><attr name="show_timeout"/><attr name="rewind_increment"/><attr name="fastforward_increment"/><attr name="controller_layout_id"/></declare-styleable>
+    <declare-styleable name="SimpleExoPlayerView"><attr format="boolean" name="use_artwork"/><attr format="reference" name="default_artwork"/><attr format="boolean" name="use_controller"/><attr format="boolean" name="hide_on_touch"/><attr name="resize_mode"/><attr name="surface_type"/><attr name="show_timeout"/><attr name="rewind_increment"/><attr name="fastforward_increment"/><attr name="player_layout_id"/><attr name="controller_layout_id"/></declare-styleable>
+    <dimen name="exo_media_button_height">52dp</dimen>
+    <dimen name="exo_media_button_width">71dp</dimen>
+    <item name="exo_artwork" type="id"/>
+    <item name="exo_content_frame" type="id"/>
+    <item name="exo_controller_placeholder" type="id"/>
+    <item name="exo_duration" type="id"/>
+    <item name="exo_ffwd" type="id"/>
+    <item name="exo_next" type="id"/>
+    <item name="exo_overlay" type="id"/>
+    <item name="exo_pause" type="id"/>
+    <item name="exo_play" type="id"/>
+    <item name="exo_position" type="id"/>
+    <item name="exo_prev" type="id"/>
+    <item name="exo_progress" type="id"/>
+    <item name="exo_rew" type="id"/>
+    <item name="exo_shutter" type="id"/>
+    <item name="exo_subtitles" type="id"/>
+    <string name="app_name">Media for Mobile</string>
+    <string name="audio_effect">Audio Effect</string>
+    <string name="button_text_start">Start</string>
+    <string name="button_text_stop">Stop</string>
+    <string name="camera_capturing">Camera Capturing</string>
+    <string name="camera_streaming">Camera Streaming</string>
+    <string name="capturing">Capturing</string>
+    <string name="content_recognition">Content Recognition</string>
+    <string name="cut_video">Cut Video</string>
+    <string name="exo_controls_fastforward_description">Fast forward</string>
+    <string name="exo_controls_next_description">Next track</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_previous_description">Previous track</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="game_capturing">Game Capturing</string>
+    <string name="game_streaming">Game Streaming</string>
+    <string name="grayscale_text">grayscale</string>
+    <string name="image_button_play">Start playing button.</string>
+    <string name="join_video">Join Video</string>
+    <string name="listening_for_audio">Listening for audio...</string>
+    <string name="media_file_info">Media File Info</string>
+    <string name="media_file_streaming">Media File Streaming</string>
+    <string name="open">Open</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="play_video_stream">Play Video Stream</string>
+    <string name="recognition">Recognition</string>
+    <string name="streaming">Streaming</string>
+    <string name="streaming_server_default_app">live</string>
+    <string name="streaming_server_default_ip">10.125.226.116</string>
+    <string name="streaming_server_default_port">1935</string>
+    <string name="streaming_server_default_stream">mp4:test</string>
+    <string name="time_scaling">Time Scaling</string>
+    <string name="transcode_video">Transcode Video</string>
+    <string name="video">Video Processing</string>
+    <string name="video_capturing">Video Capturing</string>
+    <string name="video_effect">Video Effect</string>
+    <string name="warning_empty_gallery">Gallery is Empty</string>
+    <style name="ActivityBackground">
+        <item name="android:background">@drawable/activity_background</item>
+    </style>
+    <style name="BrowseButton" parent="RoundBorderButton">
+        <item name="android:src">@drawable/ic_open</item>
+    </style>
+    <style name="CameraChangeButton" parent="RoundBorderButton">
+        <item name="android:src">@drawable/change_camera</item>
+    </style>
+    <style name="EffectButton">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:background">@drawable/timeline_item_button_background</item>
+    </style>
+    <style name="EffectsList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">128dp</item>
+        <item name="android:background">@drawable/bar_background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ExoMediaButton">
+    <item name="android:background">@null</item>
+    <item name="android:layout_width">@dimen/exo_media_button_width</item>
+    <item name="android:layout_height">@dimen/exo_media_button_height</item>
+  </style>
+    <style name="ExoMediaButton.FastForward">
+    <item name="android:src">@drawable/exo_controls_fastforward</item>
+    <item name="android:contentDescription">@string/exo_controls_fastforward_description</item>
+  </style>
+    <style name="ExoMediaButton.Next">
+    <item name="android:src">@drawable/exo_controls_next</item>
+    <item name="android:contentDescription">@string/exo_controls_next_description</item>
+  </style>
+    <style name="ExoMediaButton.Pause">
+    <item name="android:src">@drawable/exo_controls_pause</item>
+    <item name="android:contentDescription">@string/exo_controls_pause_description</item>
+  </style>
+    <style name="ExoMediaButton.Play">
+    <item name="android:src">@drawable/exo_controls_play</item>
+    <item name="android:contentDescription">@string/exo_controls_play_description</item>
+  </style>
+    <style name="ExoMediaButton.Previous">
+    <item name="android:src">@drawable/exo_controls_previous</item>
+    <item name="android:contentDescription">@string/exo_controls_previous_description</item>
+  </style>
+    <style name="ExoMediaButton.Rewind">
+    <item name="android:src">@drawable/exo_controls_rewind</item>
+    <item name="android:contentDescription">@string/exo_controls_rewind_description</item>
+  </style>
+    <style name="IndicatorBox" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">240dip</item>
+        <item name="android:layout_height">120dip</item>
+        <item name="android:textColor">#ffffff00</item>
+        <item name="android:background">#66003300</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="PauseButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/button_pause</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    <style name="PlayButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/button_play</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    <style name="PlayProgress" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/progress_play</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_play</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:thumb">@drawable/progress_play_thumb</item>
+        <item name="android:thumbOffset">12dp</item>
+        <item name="android:max">100</item>
+        <item name="android:progress">50</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+    <style name="PlayTimeText">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Popups"/>
+    <style name="Popups.Down"/>
+    <style name="Popups.Down.Left">
+        <item name="@android:windowEnterAnimation">@anim/show_tl_to_br</item>
+        <item name="@android:windowExitAnimation">@anim/hide_br_to_tl</item>
+    </style>
+    <style name="Popups.Down.Right">
+        <item name="@android:windowEnterAnimation">@anim/show_tr_to_bl</item>
+        <item name="@android:windowExitAnimation">@anim/hide_bl_to_tr</item>
+    </style>
+    <style name="Popups.Up"/>
+    <style name="Popups.Up.Left">
+        <item name="@android:windowEnterAnimation">@anim/show_bl_to_tr</item>
+        <item name="@android:windowExitAnimation">@anim/hide_tr_to_bl</item>
+    </style>
+    <style name="Popups.Up.Right">
+        <item name="@android:windowEnterAnimation">@anim/show_br_to_tl</item>
+        <item name="@android:windowExitAnimation">@anim/hide_tl_to_br</item>
+    </style>
+    <style name="PreviewButton">
+        <item name="android:background">@drawable/round_rect</item>
+        <item name="android:layout_width">128dp</item>
+        <item name="android:layout_height">96dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="RecordActiveButton" parent="RoundButton">
+        <item name="android:src">@drawable/rec_act</item>
+    </style>
+    <style name="RecordInactive" parent="RoundButton">
+        <item name="android:src">@drawable/rec_inact</item>
+    </style>
+    <style name="RoundBorderButton">
+        <item name="android:background">@drawable/round_border_button</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="RoundButton">
+        <item name="android:background">@drawable/round_button</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="RoundFocusRect">
+        <item name="android:background">@drawable/round_focus_rect</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="SettingsButton" parent="RoundBorderButton">
+        <item name="android:src">@drawable/settings</item>
+    </style>
+    <style name="TimelineItemBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:background">@drawable/timeline_item_bar_background</item>
+    </style>
+    <style name="TimelineItemButton">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+    <style name="TimelineItemDeleteButton" parent="TimelineItemButton">
+        <item name="android:src">@drawable/ic_delete</item>
+        <item name="android:background">@drawable/timeline_item_button_background</item>
+    </style>
+    <style name="TimelineItemOpenButton" parent="TimelineItemButton">
+        <item name="android:src">@drawable/ic_open</item>
+        <item name="android:background">@drawable/timeline_item_button_background</item>
+    </style>
+    <style name="TimelineItemTitle" parent="TimelineItemButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ToolBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/background_toolbar</item>
+        <item name="android:paddingRight">0dp</item>
+
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="VideoPlayerView">
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

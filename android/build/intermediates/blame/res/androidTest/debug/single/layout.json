@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/layout/exo_simple_player_view.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/layout/exo_simple_player_view.xml"
+    },
+    {
+        "merged": "/home/dengxuan/workspace/github/media-for-mobile/android/build/intermediates/res/merged/androidTest/debug/layout/exo_playback_control_view.xml",
+        "source": "/home/dengxuan/.android/build-cache/31695fecd71a88538b5d77a8b46e0fef510638e3/output/res/layout/exo_playback_control_view.xml"
+    }
+]
